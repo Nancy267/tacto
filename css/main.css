@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-x:hidden;
+}
+.imagep{
+    width: 350px;
+    height: 300px;
+}
+.rev{
+    margin-top: 30px !important;
+}
+.bot{
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    background: #13b1cd;
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-color: #13b1cd;
+    vertical-align: middle;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+.bot:hover{
+    color: #13b1cd;
+    background: #fff;
+        border-width: 0.0625rem;
+    border-style: solid;
+    border-color: #13b1cd;
+}
+#error, #error1{
+    color:red;
+    font-size: 20px;
+}
+.button1{
+    margin-top: -60px;
+    margin-left:530px;
+}
+.box{
+    margin-top: 30px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#8c66ff;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff8c66;
+}
+.block{
+            display: none !important;
+        }
+        .show{
+            display: absolute !important; 
+        }
+iframe{
+     overflow: hidden !important;
+     width:100%;
+     height:500px;
+    }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:36.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+  .animationload {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:999999;
+}
+.loader {
+    width:200px;
+    height:200px;
+    font-size:0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(../img/loader.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+::selection {
+  color: #fff;
+  background: #13b1cd;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #13b1cd;
+  text-shadow: none;
+}
+
+/*slide*/
+.jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+}
+.jssorb032 {position:absolute;}
+.jssorb032 .i {position:absolute;cursor:pointer;}
+.jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+.jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .i.idn {opacity:.3;}
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+/*other*/
+.s-header__logo-img-shrink {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    opacity: 0;
+}
+
+.header_logo {
+    display: block;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #d44651;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+.header_logo h3{
+    color:white !important;
+}
+.header_logo span {
+    right: 10%;
+    width: 32px;
+    background-color: #d44651;
+    height: 32px;
+    color: #ee6e73;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 0px 10px;
+    line-height: 32px;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 1%;
+}
+@media only screen and (max-device-width: 480px) {
+    .button1{
+    margin-top: 10px;
+    margin-left:0px;
+}
+    }
